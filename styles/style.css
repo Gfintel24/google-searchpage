@@ -34,7 +34,8 @@ li a {
   text-decoration: none;
 }
 
-.active {
+li.active {
+	border-bottom-style: solid;
   border-bottom-color: blue;
   border-bottom-width: 6px;
 }
@@ -84,9 +85,33 @@ p a {
 }
 
 p {
-  font-family: arial, sans-serif;
-  font-size: 14px;
+	font-family: arial, sans-serif;
   margin-bottom: 1px;
+}
+
+#relHead {
+	font-size: 18px;
+	font-family: arial, sans-serif;
+	margin-left: 145px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+a.relatives1 {
+	font-size: 14px;
+	font-family: arial, sans-serif;
+	padding-right: 30px;
+	color: darkblue;
+	font-weight: bold;
+	margin-left: 145px;
+}
+
+a.relatives2 {
+	font-size: 14px;
+	font-family: arial, sans-serif;
+	padding-right: 30px;
+	color: darkblue;
+	font-weight: bold;
 }
 
 p.address {
@@ -114,6 +139,38 @@ div.appAndSignIn {
   display: inline-flex;
   padding: 5px;
   padding-right: 15px;
+}
+
+footer {
+	height: 75px;
+	border-top: #DCDCDC solid 1px;
+}
+
+#geoloc {
+	font-size: 13px;
+	opacity: 0.4;
+	margin-left: 145px;
+}
+
+#nav {
+	height: 55px;
+	width: 308px;
+}
+
+#g1 {
+	position: fixed;
+
+}
+
+#sg1 {
+	background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+	background-repeat:no-repeat;
+	background-position: -24px 0;
+	box-sizing: border-box;
+	height: 30px;
+	width: 28px;
+	margin-left: 145px;
+	margin-bottom: 75px;
 }
 
 #GoogleApps{
