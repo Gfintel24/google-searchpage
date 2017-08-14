@@ -1,0 +1,147 @@
+a{
+	text-decoration: none;
+}
+
+ul {
+  font-family: arial, sans-serif;
+  font-size: 13.4px;
+  list-style-type: none;
+  margin: 0 130px;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li.firstSet {
+  float: left;
+}
+
+.secondSet {
+  position: absolute;
+  top: 65px;
+  left: 490px;
+}
+
+li a {
+  color: black;
+  opacity: 0.6;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  border-bottom-color: blue;
+  border-bottom-width: 6px;
+}
+
+#logo {
+  margin-left: 5px;
+  margin-top: 10px;
+	width: 120px;
+	height: 44px;
+}
+
+.searchBar{
+  margin-top: -15px;
+}
+
+#searchBar{
+  position: absolute;
+	width: 600px;
+	height: 34px;
+  top: 25px;
+  margin-left: 10px;
+}
+
+/* Probably will need to make bigger.*/
+#searchButton {
+  background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+  background-position: -247px -30px;
+  background-size: 550px 68px;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  left: 715px;
+  top: 18px;
+}
+
+div.searchResult {
+  margin-left: 145px;
+}
+
+p a {
+  font-size: 18px;
+  font-family: arial, sans-serif;
+  color: darkblue;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-bottom: 1px;
+}
+
+p.address {
+  color: darkgreen;
+  margin: 1px;
+}
+
+h5.description {
+  opacity: 0.5;
+  margin: 0 145px 20px 0;
+  width: 600px;
+  height: 28px;
+}
+
+h5 {
+  font-family: arial, sans-serif;
+  opacity: 0.4;
+  margin: 10px 145px 20px 145px;
+}
+
+div.appAndSignIn {
+  position: absolute;
+  top: 13px;
+  right: 0;
+  display: inline-flex;
+  padding: 5px;
+  padding-right: 15px;
+}
+
+#GoogleApps{
+  background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+	background-position: -132px -38px;
+	background-size: 528px 68px;
+	box-sizing: border-box;
+	width: 30px;
+	height: 30px;
+
+	margin: 0px 10px;
+}
+
+
+#GPSignIn{
+  top: 0;
+	display: inline-block;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 28px;
+	background-color: rgb(67, 135, 253);
+	background-size: auto auto;
+	border-color: rgb(66, 133, 244);
+	border-style: solid;
+	border-width: 1px;
+	color: white;
+	padding-left: 12px;
+	padding-right: 12px;
+  text-decoration: none;
+}
